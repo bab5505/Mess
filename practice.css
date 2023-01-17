@@ -1,0 +1,78 @@
+h1 {
+    background-color: rgb(166, 238, 71);
+    width: 50%;
+    height: 45px;
+    margin: 2rem;
+    display: inline;
+}
+h1:hover{
+    font-size: 4rem;
+    background-color: rosybrown;
+    transition: font-size 0.3s, background-color 0.5s;
+    color: aqua;
+}
+button:hover {
+    transform: translateX(200px);
+    transition: transform 2s;
+}
+/* a {
+    background-color: aquamarine;
+    width: 150px;
+    margin: 5%;
+    font-size: small;
+    display: block;
+ } */
+
+/* #container { */
+border: 1px solid rgb(107, 219, 107);
+width: 50%;
+margin: 0 auto;
+/* 
+/* }
+#container section {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    border: 2px solid salmon;
+    display: inline-block;
+    text-align: center;
+/* } */
+nav {
+    background-color: rgb(127, 132, 138);
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+nav a {
+    font-size: 2rem;
+}
+body {
+    background-color: beige;
+}
+
+section#essay {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    body {
+      background-color: aquamarine;
+    }
+    nav {
+        background-color: rgb(194, 226, 79);
+    }
+}
+
+@media (max-width: 800px) {
+section#essay{
+    width: 80%;
+}
+    body {
+      background-color: rgb(4, 104, 71);
+    }
+    nav {
+        background-color: rgb(226, 79, 177); 
+    }
+}

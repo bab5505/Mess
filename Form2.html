@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+<body>
+    <h1>Forms demo!</h1>
+    <form>
+        <input name="city" type="text" placeholder="Enter A City" required>
+    <button>First Button</button>
+    </form>
+    <form>
+        <h2>Register</h2>
+        <button type="button">Add more</button>
+        <!--label using for & id-->
+        <label for="email">Enter Email</label>
+        <input type="email" placeholder="Email" name="email" id="email">
+        <!--label note above / using nesting-->
+        <label>Enter Password</label>
+        <input type="password" placeholder="Password" name="password">
+        <br>
+        <input type="checkbox" name="tos-agree"> I agree to the terms of service.
+        <input type="submit" value="Back!">
+        <input type="submit" value="Next!">
+        <button type="submit">Submit Form</button>
+    </form>
+        <h2>Mode of Transportation</h2>
+        <label>Select primary mode of transportation</label>
+        <br>
+        <input type="radio" name="type of vehicle" value="Car"> Car <br>
+        <input type="radio" name="type of vehicle" value="Truck"> Truck <br>
+        <input type="radio" name="type of vehicle" value="Motorcycle"> Motorcycle <br>
+    </form>
+    <form>
+        <h2>Other Input types</h2>
+        <label>Pick favorite color!</label>
+        <br>
+       <input type="color" name="color">
+       <br>
+       <br>
+      Enter birthday <input type="date" name="birthdate">
+      <br>
+      <br>
+      How much pain are you in? <input type="range" name="pain level" min="1" max="10">
+      <br>
+      <br>
+      <button type="submit">Submit Form</button>
+    </form>
+    <form>
+        <h2>Other input options</h2>
+        <br>
+        Select a Color
+        <select name="Color">
+            <option value="">--Please make a selection--</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+        </select>
+        <br>
+        <br>
+        Please draft an Essay!
+        <textarea name="essay" cols="150" rows="15" minlength="50" maxlength="300"></textarea>
+        </form>
+<br>
+<form method="post" enctype="multipart/form-data">
+<label>
+    Inactaive ATM (test file input)
+    <input type="file">
+</label>
+</form>
+</body>
+</html>

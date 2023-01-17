@@ -1,0 +1,52 @@
+body {
+     /* background-color: rgb(58, 26, 87); */
+     /* background-color: #ba224a ; */
+     /* color: #b874a8; */
+    background: linear-gradient(-50deg, cyan, pink);
+    margin: 3%;
+    /* background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911__340.jpg"); */
+   
+}
+h1 { text-align: center;
+ font-weight: 200;
+ background-color: rgb(192, 234, 245);
+ width:20%;
+ padding: 1%;
+ margin: 1rem auto;
+ 
+}
+p {
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: larger; */
+    margin: 2rem auto;
+    text-align:center;
+}
+.first{
+    width: 500px;
+}
+img {  
+    width: 40%;
+    border-color: rgb(120, 120, 126);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30%;
+}
+h2 { text-align: center;
+    font-weight: 200;
+    background-color: rgb(192, 234, 245);
+    width:20%;
+    padding: 1%;
+    margin: 0 auto;
+}
+a {
+    font-size: large;
+    text-decoration: none;
+}
+a:hover{
+   font-size: 1.4em;
+   transition: .3s;
+   display: inline-block;
+   position: relative;
+   text-decoration: underline;
+}

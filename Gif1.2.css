@@ -1,0 +1,32 @@
+
+img{
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+   
+}
+
+
+.try div{
+    position: absolute;
+    bottom: 450px;
+    left: 62px;
+    text-align: center;
+    background: rgb(155, 153, 153);
+    color: rgb(196, 23, 23);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+
+
+.try:hover{
+    cursor: pointer;
+    
+}
+
+.try:hover .text {
+    top: 0;
+    visibility: visible, .4s;
+}

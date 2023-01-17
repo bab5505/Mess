@@ -1,0 +1,27 @@
+hr {
+    margin: 50px;
+  }
+  
+  button {
+    padding: 20px 20px;
+    font-size: 20px;
+    font-style: oblique;
+    border-radius: 5px;
+    margin: 400px auto;
+    background-color: #b42289;
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+  body{
+    background-color: aquamarine;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor:pointer ;
+    background-color: #115ba2;
+    font-size: 1.4rem;
+  }
